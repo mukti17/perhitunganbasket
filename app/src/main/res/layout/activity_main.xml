@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.mukti_000.belajar_multyplelayer.MainActivity">
+
+  <TextView
+    android:id="@+id/liar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hewan Liar"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:paddingBottom="15dp"
+    android:paddingTop="10dp"
+    android:textColor="#fff"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/ternak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hewan Ternak"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/dataLiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Hewan Liar"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/dataTernak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Hewan Ternak"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
